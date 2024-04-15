@@ -1,0 +1,134 @@
+*body, h1, h2, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    color: #fff;
+}
+
+.logo{
+    width: 100px;
+    color: brown;
+}
+
+.tags{
+    display: flex;
+    text-decoration: none;
+}
+.tags a{
+    text-decoration: none;
+}
+.name{
+   color: brown;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;;
+    margin-left: 10px; 
+    text-decoration: none;
+    } 
+       /*home*/
+    .social-media{
+        position: inline-block;
+        bottom: 20px;
+        display: flex;
+        align-items: flex-end;
+       
+    }
+      
+    .social-media a{
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #3b5998;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        text-decoration: none;
+    }
+
+     /*twitter*/
+    .social-media a:nth-child(2){
+        background-color: #00acee;
+    }
+
+    /*instagram*/
+    .social-media a:nth-child(3){
+        background-color: #c13584;
+    }
+ .SECTION{
+    padding: 20px;
+    float: left;
+    width: 50%;
+ }
+ 
+ footer{
+    clear: both;
+ }
+
+ /*Contact*/
+ .contact-details{
+    text-align: center;
+    color: #c13584;
+  }
+  
+
+  /*about me*/
+ h2{
+    color: #666;
+}
+
+p{
+    color:#666;
+}
+.skills{
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #fff;
+    color: #fff;
+    
+    padding: 100px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.container img{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
